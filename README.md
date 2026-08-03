@@ -4,45 +4,50 @@
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](./pyproject.toml)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
 
-> Professional Python project: investigating a deployed machine learning model.
+> Professional Python project: investigating deployed machine learning and cognitive-service-style model results.
 
 ## Project Description
 
-This project focuses on learning to interrogate a deployed ML model
-by probing it systematically with different inputs.
+This project focuses on learning to interrogate deployed and API-based machine learning systems by probing them systematically with different inputs and reviewing structured results.
 
 We learn to:
 
 - call a live prediction API from a notebook
 - vary input features and observe how predictions change
+- add retry and timeout handling for sleeping deployed servers
 - identify decision boundaries and edge cases
+- store and flatten API-style JSON responses
+- create DataFrames and visuals from model responses
+- log notebook results to `project.log`
 - interpret model behavior from the outside
 
-## Example Notebook + Your Notebook
+## Example Notebook + My Notebooks
 
-Keep the example notebook as it is.
-Either copy it or use it to build a new notebook that ends in _yourname.
-See [docs/your-files.md] for more.
+The original example notebook is kept as a reference. I added two notebooks for my technical modification and custom applied investigation.
 
 Links:
 
 - [ml_07_case.ipynb](notebooks/ml_07_case.ipynb)
+- [ml_07_femi.ipynb](notebooks/ml_07_femi.ipynb)
+- [ml_07_text_and_image_femi.ipynb](notebooks/ml_07_text_and_image_femi.ipynb)
 
 ## Working Files
 
-You'll work with these areas:
+Most of the work for this project appears in these areas:
 
-- **data/raw** - raw data for exploration (only if you add a dataset)
+- **notebooks/** - interactive analysis notebooks
 - **docs/** - project narrative and documentation
-- **src/mlstudio/** - the app is an example; run only (no need to modify)
-- **notebooks/** - interactive analysis
-- **pyproject.toml** - update authorship & links
-- **zensical.toml** - update authorship & links
+- **docs/images/** - saved charts and visuals
+- **src/mlstudio/** - example application used for environment verification
+- **project.log** - evidence that the notebooks and project workflows ran
+- **pyproject.toml** - project metadata, dependencies, and tool settings
+- **zensical.toml** - documentation site settings
 
 ## Additional Packages
 
-This project uses `requests` to make the calls.
-Be sure the requests package is listed in `pyproject.toml`.
+This project uses `requests` to call the deployed API. It also uses common data and visualization packages such as `pandas`, `matplotlib`, and `seaborn`.
+
+The notebooks use structured logging with `LOG.info(...)` so their results are written to `project.log`.
 
 ## Instructions (pro-analytics-02)
 
@@ -56,50 +61,56 @@ to complete:
 4. Phase 4. **Modify**
 5. Phase 5. **Apply**
 
-## Challenges
+## Technical Modification
 
-Challenges are expected.
-Sometimes instructions may not quite match your operating system.
-When issues occur, share screenshots, error messages, and details about what you tried.
-Working through issues is part of implementing professional projects.
+The first custom notebook is:
 
-## Success
+- `notebooks/ml_07_femi.ipynb`
 
-After completing Phase 1. **Start & Run**, you'll have your own GitHub project,
-with the example notebook executed and committed,
-and running the example module will print out:
+This notebook applies new skills by:
 
-```shell
-========================
-Executed successfully!
-========================
-```
+- calling a live prediction API with `requests`
+- adding retry and timeout handling for sleeping deployed servers
+- creating structured DataFrames from API responses
+- running a feature sweep to find a decision shift
+- testing edge cases and API error handling
+- saving visuals to `docs/images/`
+- logging notebook progress and summary results to `project.log`
 
-A new file `project.log` will appear in the root project folder.
+The project log showed that the deployed Penguin API could return timeout messages when the server may have been sleeping.
+This modification improves the workflow by documenting those issues and making the notebook more reliable.
+
+## Custom Applied Project
+
+The second custom notebook is:
+
+- `notebooks/ml_07_text_and_image_femi.ipynb`
+
+This notebook applies new skills to text and image analysis results by:
+
+- storing API-style JSON responses in Python dictionaries
+- flattening image label JSON into DataFrames
+- comparing good, incomplete, and interesting image results
+- summarizing confidence values
+- creating visuals from label and sentiment results
+- saving charts to `docs/images/`
+- logging notebook progress and summary results to `project.log`
 
 ## Command Reference
 
 <details>
 <summary>Show command reference</summary>
 
-### In a machine terminal (open in your `Repos` folder)
-
-After you get a copy of this repo in your own GitHub account,
-open a machine terminal in your `Repos` folder:
+### In a machine terminal, open your Repos folder
 
 ```shell
-# Replace username with YOUR GitHub username.
-git clone https://github.com/username/ml-07-applied
-
+# Replace username with your GitHub username if needed.
+git clone https://github.com/Airfirm/ml-07-applied
 cd ml-07-applied
 code .
 ```
 
 ### In a VS Code terminal
-
-These are listed for convenience.
-For best results, follow the detailed instructions in
-[pro-analytics-02 guide](https://denisecase.github.io/pro-analytics-02/).
 
 ```shell
 uv self update
@@ -110,15 +121,10 @@ uv sync --extra dev --extra docs --upgrade
 uvx pre-commit install
 uvx pre-commit autoupdate
 
-git add -A
-uvx pre-commit run --all-files
-# repeat if changes were made
-uvx pre-commit run --all-files
-
-# run the example module to verify the environment (.venv/)
+# run the example module to verify the environment
 uv run python -m mlstudio.app_case
 
-# run common chores
+# run checks
 uv run ruff format .
 uv run ruff check . --fix
 uv run python -m pyright
@@ -127,71 +133,57 @@ uv run python -m zensical build
 
 # save progress
 git add -A
-git commit -m "update"
+git commit -m "update module 7 technical modification"
 git push -u origin main
 ```
 
 </details>
 
-## Notes
-
-- Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
-- Use `CTRL+f` to find (and replace) text within a file.
-- You do not need to add to or modify `tests/`. They are provided for example only.
-- Many files are silent helpers. Explore as you like, but nothing is required.
-- You do NOT need to understand everything; understanding builds naturally over time.
-
-## Troubleshooting >>>
-
-If you see something like this in your terminal: `>>>` or `...`
-You accidentally started Python interactive mode.
-It happens.
-Press `Ctrl+c` (both keys together) or `Ctrl+Z` then `Enter` on Windows.
-
-## Example Output (Can Remove this Section after You Verify)
-
-```shell
-| INFO | ML | Summarize workflow........
-| INFO | ML | ========================
-| INFO | ML | SUMMARY
-| INFO | ML | ========================
-| INFO | ML | Dataset: hours_scores_case
-| INFO | ML | Original rows: 10
-| INFO | ML | Clean rows: 10
-| INFO | ML | Features: ['hours_studied', 'practice_quizzes', 'attendance_pct', 'sleep_hours', 'prior_score']
-| INFO | ML | Target: score
-| INFO | ML | ----- in a script, call plt.show() once at the end to display all charts -----
-| INFO | ML | ----- in a script, CLOSE the chart windows with the close button to CONTINUE -----
-| INFO | ML | Workflow complete
-| INFO | ML | IMPORTANT: This script creates chart windows.
-| INFO | ML | Close chart windows and terminate this process with CTRL+c as needed.
-| INFO | ML | ========================
-| INFO | ML | Executed successfully!
-| INFO | ML | ========================
-```
-
 ## Findings and Visuals
 
-Take screenshots of your charts and provide them here with a discussion.
-In Markdown, display a figure by using:
-an exclamation mark immediately followed by square brackets containing a useful caption
-immediately followed by parentheses containing the relative path to your figure.
-Note: When you start typing the path with a dot (.) for "here, in this directory",
-the IDE may help complete the path.
+The `ml_07_femi.ipynb` notebook investigated the deployed Penguin prediction API. The feature sweep showed that predictions changed from **Adelie** to **Chinstrap** around `bill_length_mm = 42.631579`.
 
-In your custom project, follow this example, but
+![Penguin API Bill Length Sweep](./docs/images/ml_07_femi_bill_length_sweep.png)
 
-- your figures and narrative should reflect your work,
-- this `README.md` should include your commands, process, and visuals, and
-- `docs/index.md` should include your narrative.
+The edge case chart summarized which API tests returned predictions and which produced an error. A missing feature produced a `400 Bad Request`, while unusual numeric values still returned predictions.
 
-Remove unnecessary instructional comments in your custom files.
+![Edge Case API Outcomes](./docs/images/ml_07_femi_edge_case_outcomes.png)
 
-Update figures to present interesting results from your custom project:
+The `ml_07_text_and_image_femi.ipynb` notebook analyzed API-style image and text results. The image label chart shows top confidence values from good, incomplete, and interesting examples.
 
-![Provide a Useful Caption](./docs/images/Figure_1.png)
+![Top Image Label Confidence Values](./docs/images/ml_07_text_image_label_confidence.png)
 
-![Provide a Useful Caption](./docs/images/Figure_2.png)
+The sentiment chart summarizes confidence values from text sentiment examples.
+
+![Text Sentiment Confidence Values](./docs/images/ml_07_text_sentiment_confidence.png)
+
+## Project Log Evidence
+
+Both custom notebooks include logging code like:
+
+```python
+LOG.info("Confirming installation:")
+LOG.info(f"  python:       {platform.python_version()}")
+LOG.info(f"  pandas:       {package_version('pandas')}")
+LOG.info(f"  numpy:        {package_version('numpy')}")
+LOG.info(f"  matplotlib:   {package_version('matplotlib')}")
+LOG.info(f"  seaborn:      {package_version('seaborn')}")
+LOG.info(f"  requests:     {package_version('requests')}")
+```
+
+After running both notebooks, `project.log` should include notebook start lines, package versions, API results, saved visual names, and final success messages.
+
+## Challenges
+
+The main challenge was working with a live deployed API. The server can sleep or time out, so the notebook needed retry and timeout handling.
+Another challenge was making sure notebook logging wrote to the root `project.log` even when the notebook was executed from inside the `notebooks/` folder.
+
+## Notes
+
+- Use **Run All** in each notebook so every logging and visualization cell runs.
+- Check the log with `Get-Content project.log -Tail 100` in PowerShell.
+- Saved visuals appear in `docs/images/`.
+- Do not remove the logging cells because they provide project evidence.
 
 ## Project Documentation
 
