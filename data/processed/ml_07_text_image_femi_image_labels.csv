@@ -1,0 +1,22 @@
+image_name,assessment_type,label,confidence,human_review
+good_match_puppies,good_match,Animal,99.9982,The service correctly detected the puppies and grassy outdoor setting.
+good_match_puppies,good_match,Canine,99.9982,The service correctly detected the puppies and grassy outdoor setting.
+good_match_puppies,good_match,Dog,99.9982,The service correctly detected the puppies and grassy outdoor setting.
+good_match_puppies,good_match,Pet,99.9982,The service correctly detected the puppies and grassy outdoor setting.
+good_match_puppies,good_match,Puppy,99.9982,The service correctly detected the puppies and grassy outdoor setting.
+good_match_puppies,good_match,Golden Retriever,99.7147,The service correctly detected the puppies and grassy outdoor setting.
+good_match_puppies,good_match,Grass,96.7513,The service correctly detected the puppies and grassy outdoor setting.
+incomplete_duck_rabbit,not_good_match,Art,99.2553,The service detected the drawing and bird interpretation but missed the rabbit interpretation.
+incomplete_duck_rabbit,not_good_match,Drawing,96.2581,The service detected the drawing and bird interpretation but missed the rabbit interpretation.
+incomplete_duck_rabbit,not_good_match,Animal,90.4772,The service detected the drawing and bird interpretation but missed the rabbit interpretation.
+incomplete_duck_rabbit,not_good_match,Bird,90.4772,The service detected the drawing and bird interpretation but missed the rabbit interpretation.
+incomplete_duck_rabbit,not_good_match,Face,61.3857,The service detected the drawing and bird interpretation but missed the rabbit interpretation.
+incomplete_duck_rabbit,not_good_match,Head,61.3857,The service detected the drawing and bird interpretation but missed the rabbit interpretation.
+incomplete_duck_rabbit,not_good_match,Person,61.3857,The service detected the drawing and bird interpretation but missed the rabbit interpretation.
+interesting_robot,interesting,Robot,99.9995,The service correctly detected robot but also labeled it as person because it is human-like.
+interesting_robot,interesting,Accessories,87.831,The service correctly detected robot but also labeled it as person because it is human-like.
+interesting_robot,interesting,Jewelry,87.831,The service correctly detected robot but also labeled it as person because it is human-like.
+interesting_robot,interesting,Necklace,87.831,The service correctly detected robot but also labeled it as person because it is human-like.
+interesting_robot,interesting,Person,86.6008,The service correctly detected robot but also labeled it as person because it is human-like.
+interesting_robot,interesting,Clothing,62.3733,The service correctly detected robot but also labeled it as person because it is human-like.
+interesting_robot,interesting,Glove,62.3733,The service correctly detected robot but also labeled it as person because it is human-like.

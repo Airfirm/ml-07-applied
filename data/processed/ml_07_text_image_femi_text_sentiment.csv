@@ -1,0 +1,4 @@
+text_id,text,sentiment,confidence
+positive_feedback,The project ran successfully and the notebook helped me understand deployed models.,POSITIVE,98.5
+mixed_feedback,"The API was useful, but the timeout made the process confusing at first.",MIXED,87.2
+concern_feedback,The server timeout shows that deployed models need careful monitoring.,NEUTRAL,76.4

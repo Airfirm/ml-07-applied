@@ -1,0 +1,6 @@
+case,prediction,status,error,bill_length_mm,bill_depth_mm,flipper_length_mm,body_mass_g
+missing feature,ERROR,ERROR,400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict,39.1,18.7,181,
+extreme bill length,Adelie,OK,,5.0,18.7,181,3750.0
+very large bill,Chinstrap,OK,,90.0,18.7,181,3750.0
+negative value,Adelie,OK,,-10.0,18.7,181,3750.0
+zero body mass,Adelie,OK,,39.1,18.7,181,0.0

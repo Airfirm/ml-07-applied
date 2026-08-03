@@ -646,3 +646,317 @@ dtype: int64
 2026-08-03 11:58:52 | INFO | M07 |   scikit-learn: 1.9.0
 2026-08-03 11:58:52 | INFO | M07 |   seaborn:      0.13.2
 2026-08-03 11:58:52 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-03 17:32:36 | INFO | M07 | ========================
+2026-08-03 17:32:36 | INFO | M07 | === RUN START ===
+2026-08-03 17:32:36 | INFO | M07 | project=M07
+2026-08-03 17:32:36 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-03 17:32:36 | INFO | M07 | notebook=ml_07_text_and_image_femi.ipynb
+2026-08-03 17:32:36 | INFO | M07 | python=3.14.2
+2026-08-03 17:32:36 | INFO | M07 | os=Windows 11
+2026-08-03 17:32:36 | INFO | M07 | shell=notebook
+2026-08-03 17:32:36 | INFO | M07 | cwd=c:\Repos\ml-07-applied\notebooks
+2026-08-03 17:32:36 | INFO | M07 | project_log=c:\Repos\ml-07-applied\project.log
+2026-08-03 17:32:36 | INFO | M07 | Confirming installation:
+2026-08-03 17:32:36 | INFO | M07 |   python:       3.14.2
+2026-08-03 17:32:36 | INFO | M07 |   pandas:       3.0.5
+2026-08-03 17:32:36 | INFO | M07 |   numpy:        2.5.1
+2026-08-03 17:32:36 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-03 17:32:36 | INFO | M07 |   seaborn:      0.13.2
+2026-08-03 17:32:36 | INFO | M07 |   requests:     2.34.2
+2026-08-03 17:32:36 | INFO | M07 | ========================
+2026-08-03 17:32:36 | INFO | M07 | Creating JSON-style image analysis records
+2026-08-03 17:32:36 | INFO | M07 | Image result records: 3
+2026-08-03 17:32:36 | INFO | M07 | Flattened image JSON-style results
+2026-08-03 17:32:36 | INFO | M07 | Image label rows: 21
+2026-08-03 17:32:36 | INFO | M07 | Saved image label results to: c:\Repos\ml-07-applied\data\processed\ml_07_text_image_femi_image_labels.csv
+2026-08-03 17:32:36 | INFO | M07 | Saved image confidence figure: c:\Repos\ml-07-applied\docs\images\ml_07_text_image_femi_image_confidence.png
+2026-08-03 17:32:36 | INFO | M07 | Creating JSON-style text sentiment records
+2026-08-03 17:32:36 | INFO | M07 | Text sentiment rows: 3
+2026-08-03 17:32:36 | INFO | M07 | Saved text sentiment results to: c:\Repos\ml-07-applied\data\processed\ml_07_text_image_femi_text_sentiment.csv
+2026-08-03 17:32:37 | INFO | M07 | Saved text confidence figure: c:\Repos\ml-07-applied\docs\images\ml_07_text_image_femi_text_confidence.png
+2026-08-03 17:32:37 | INFO | M07 | What works well? Clear, realistic images with common subjects worked best. The puppies were detected accurately with high confidence.
+2026-08-03 17:32:37 | INFO | M07 | What does not work well? Ambiguous drawings and optical illusions were harder. The duck-rabbit image was only interpreted as a bird and drawing.
+2026-08-03 17:32:37 | INFO | M07 | What was interesting? The robot image was detected as Robot, but it was also labeled Person because it has human-like features.
+2026-08-03 17:32:37 | INFO | M07 | Saved human review summary to: c:\Repos\ml-07-applied\data\processed\ml_07_text_image_femi_human_review_summary.csv
+2026-08-03 17:32:37 | INFO | M07 | ========================
+2026-08-03 17:32:37 | INFO | M07 | SUMMARY
+2026-08-03 17:32:37 | INFO | M07 | ========================
+2026-08-03 17:32:37 | INFO | M07 | Technical modification: Added text and image JSON-style result analysis with structured logging.
+2026-08-03 17:32:37 | INFO | M07 | Image label rows: 21
+2026-08-03 17:32:37 | INFO | M07 | Text sentiment rows: 3
+2026-08-03 17:32:37 | INFO | M07 | Human review rows: 3
+2026-08-03 17:32:37 | INFO | M07 | Outputs saved in: c:\Repos\ml-07-applied\data\processed
+2026-08-03 17:32:37 | INFO | M07 | Figures saved in: c:\Repos\ml-07-applied\docs\images
+2026-08-03 17:32:37 | INFO | M07 | Executed notebook successfully: ml_07_text_and_image_femi.ipynb
+2026-08-03 17:32:37 | INFO | M07 | ========================
+2026-08-03 17:33:36 | INFO | M07 | ========================
+2026-08-03 17:33:36 | INFO | M07 | === RUN START ===
+2026-08-03 17:33:36 | INFO | M07 | project=M07
+2026-08-03 17:33:36 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-03 17:33:36 | INFO | M07 | notebook=ml_07_femi.ipynb
+2026-08-03 17:33:36 | INFO | M07 | python=3.14.2
+2026-08-03 17:33:36 | INFO | M07 | os=Windows 11
+2026-08-03 17:33:36 | INFO | M07 | shell=notebook
+2026-08-03 17:33:36 | INFO | M07 | cwd=c:\Repos\ml-07-applied\notebooks
+2026-08-03 17:33:36 | INFO | M07 | project_log=c:\Repos\ml-07-applied\project.log
+2026-08-03 17:33:36 | INFO | M07 | Confirming installation:
+2026-08-03 17:33:36 | INFO | M07 |   python:       3.14.2
+2026-08-03 17:33:36 | INFO | M07 |   pandas:       3.0.5
+2026-08-03 17:33:36 | INFO | M07 |   numpy:        2.5.1
+2026-08-03 17:33:36 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-03 17:33:36 | INFO | M07 |   seaborn:      0.13.2
+2026-08-03 17:33:36 | INFO | M07 |   requests:     2.34.2
+2026-08-03 17:33:36 | INFO | M07 | ========================
+2026-08-03 17:33:36 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-03 17:33:36 | INFO | M07 | Configured baseline payloads for Adelie, Chinstrap, and Gentoo
+2026-08-03 17:33:36 | INFO | M07 | Baseline predictions with retry handling:
+2026-08-03 17:33:36 | INFO | M07 | Calling API for expected=Adelie, attempt=1
+2026-08-03 17:34:06 | WARNING | M07 | API timeout expected=Adelie attempt=1: HTTPSConnectionPool(host='ml-penguin-predictor.onrender.com', port=443): Read timed out. (read timeout=30)
+2026-08-03 17:34:09 | INFO | M07 | Calling API for expected=Adelie, attempt=2
+2026-08-03 17:34:27 | INFO | M07 | API success expected=Adelie prediction=Adelie
+2026-08-03 17:34:27 | INFO | M07 | Calling API for expected=Chinstrap, attempt=1
+2026-08-03 17:34:27 | INFO | M07 | API success expected=Chinstrap prediction=Chinstrap
+2026-08-03 17:34:27 | INFO | M07 | Calling API for expected=Gentoo, attempt=1
+2026-08-03 17:34:28 | INFO | M07 | API success expected=Gentoo prediction=Gentoo
+2026-08-03 17:34:28 | INFO | M07 |   expected=Adelie     got=Adelie     status=OK attempts=2 [OK]
+2026-08-03 17:34:28 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  status=OK attempts=1 [OK]
+2026-08-03 17:34:28 | INFO | M07 |   expected=Gentoo     got=Gentoo     status=OK attempts=1 [OK]
+2026-08-03 17:34:28 | INFO | M07 | Saved baseline predictions to: c:\Repos\ml-07-applied\data\processed\ml_07_femi_baseline_predictions.csv
+2026-08-03 17:34:28 | INFO | M07 | bill_length_mm sweep with retry handling:
+2026-08-03 17:34:28 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:28 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:34:28 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:28 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:34:28 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:28 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:34:28 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:28 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:34:28 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:29 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:34:29 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:29 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:34:29 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:29 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:34:29 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:29 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:34:29 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:30 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:34:30 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:30 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:34:30 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:30 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:34:30 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:30 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:34:30 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:31 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:34:31 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:31 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:34:31 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:31 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:34:31 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:31 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:34:31 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:32 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:34:32 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:32 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:34:32 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:32 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:34:32 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:34:32 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:34:32 | INFO | M07 |  bill_length_mm prediction
+2026-08-03 17:34:32 | INFO | M07 |       30.000000     Adelie
+2026-08-03 17:34:32 | INFO | M07 |       31.578947     Adelie
+2026-08-03 17:34:32 | INFO | M07 |       33.157895     Adelie
+2026-08-03 17:34:32 | INFO | M07 |       34.736842     Adelie
+2026-08-03 17:34:32 | INFO | M07 |       36.315789     Adelie
+2026-08-03 17:34:32 | INFO | M07 |       37.894737     Adelie
+2026-08-03 17:34:32 | INFO | M07 |       39.473684     Adelie
+2026-08-03 17:34:32 | INFO | M07 |       41.052632     Adelie
+2026-08-03 17:34:32 | INFO | M07 |       42.631579     Adelie
+2026-08-03 17:34:32 | INFO | M07 |       44.210526     Chinstrap
+2026-08-03 17:34:32 | INFO | M07 |       45.789474     Chinstrap
+2026-08-03 17:34:32 | INFO | M07 |       47.368421     Chinstrap
+2026-08-03 17:34:32 | INFO | M07 |       48.947368     Chinstrap
+2026-08-03 17:34:32 | INFO | M07 |       50.526316     Chinstrap
+2026-08-03 17:34:32 | INFO | M07 |       52.105263     Chinstrap
+2026-08-03 17:34:32 | INFO | M07 |       53.684211     Chinstrap
+2026-08-03 17:34:32 | INFO | M07 |       55.263158     Chinstrap
+2026-08-03 17:34:32 | INFO | M07 |       56.842105     Chinstrap
+2026-08-03 17:34:32 | INFO | M07 |       58.421053     Chinstrap
+2026-08-03 17:34:32 | INFO | M07 |       60.000000     Chinstrap
+2026-08-03 17:34:32 | INFO | M07 | Saved sweep results to: c:\Repos\ml-07-applied\data\processed\ml_07_femi_bill_length_sweep.csv
+2026-08-03 17:34:32 | INFO | M07 | Saved figure: c:\Repos\ml-07-applied\docs\images\ml_07_femi_bill_length_sweep.png
+2026-08-03 17:34:33 | INFO | M07 | Edge case results:
+2026-08-03 17:34:33 | INFO | M07 |   missing feature        -> 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-03 17:34:33 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-03 17:34:33 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-03 17:34:33 | INFO | M07 |   negative value         -> Adelie
+2026-08-03 17:34:33 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-03 17:34:33 | INFO | M07 | Saved edge case results to: c:\Repos\ml-07-applied\data\processed\ml_07_femi_edge_cases.csv
+2026-08-03 17:34:34 | INFO | M07 | ========================
+2026-08-03 17:34:34 | INFO | M07 | SUMMARY
+2026-08-03 17:34:34 | INFO | M07 | ========================
+2026-08-03 17:34:34 | INFO | M07 | Technical modification: Added retry-enabled API calls and structured logging.
+2026-08-03 17:34:34 | INFO | M07 | Baseline rows: 3
+2026-08-03 17:34:34 | INFO | M07 | Sweep rows: 20
+2026-08-03 17:34:34 | INFO | M07 | Edge case rows: 5
+2026-08-03 17:34:34 | INFO | M07 | Outputs saved in: c:\Repos\ml-07-applied\data\processed
+2026-08-03 17:34:34 | INFO | M07 | Figures saved in: c:\Repos\ml-07-applied\docs\images
+2026-08-03 17:34:34 | INFO | M07 | Executed notebook successfully: ml_07_femi.ipynb
+2026-08-03 17:34:34 | INFO | M07 | ========================
+2026-08-03 17:38:21 | INFO | M07 | ========================
+2026-08-03 17:38:21 | INFO | M07 | === RUN START ===
+2026-08-03 17:38:21 | INFO | M07 | project=M07
+2026-08-03 17:38:21 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-03 17:38:21 | INFO | M07 | notebook=ml_07_femi.ipynb
+2026-08-03 17:38:21 | INFO | M07 | python=3.14.2
+2026-08-03 17:38:21 | INFO | M07 | os=Windows 11
+2026-08-03 17:38:21 | INFO | M07 | shell=notebook
+2026-08-03 17:38:21 | INFO | M07 | cwd=c:\Repos\ml-07-applied\notebooks
+2026-08-03 17:38:21 | INFO | M07 | project_log=c:\Repos\ml-07-applied\project.log
+2026-08-03 17:38:21 | INFO | M07 | Confirming installation:
+2026-08-03 17:38:21 | INFO | M07 |   python:       3.14.2
+2026-08-03 17:38:21 | INFO | M07 |   pandas:       3.0.5
+2026-08-03 17:38:21 | INFO | M07 |   numpy:        2.5.1
+2026-08-03 17:38:21 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-03 17:38:21 | INFO | M07 |   seaborn:      0.13.2
+2026-08-03 17:38:21 | INFO | M07 |   requests:     2.34.2
+2026-08-03 17:38:21 | INFO | M07 | ========================
+2026-08-03 17:38:21 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-03 17:38:21 | INFO | M07 | Configured baseline payloads for Adelie, Chinstrap, and Gentoo
+2026-08-03 17:38:21 | INFO | M07 | Baseline predictions with retry handling:
+2026-08-03 17:38:21 | INFO | M07 | Calling API for expected=Adelie, attempt=1
+2026-08-03 17:38:21 | INFO | M07 | API success expected=Adelie prediction=Adelie
+2026-08-03 17:38:21 | INFO | M07 | Calling API for expected=Chinstrap, attempt=1
+2026-08-03 17:38:21 | INFO | M07 | API success expected=Chinstrap prediction=Chinstrap
+2026-08-03 17:38:21 | INFO | M07 | Calling API for expected=Gentoo, attempt=1
+2026-08-03 17:38:22 | INFO | M07 | API success expected=Gentoo prediction=Gentoo
+2026-08-03 17:38:22 | INFO | M07 |   expected=Adelie     got=Adelie     status=OK attempts=1 [OK]
+2026-08-03 17:38:22 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  status=OK attempts=1 [OK]
+2026-08-03 17:38:22 | INFO | M07 |   expected=Gentoo     got=Gentoo     status=OK attempts=1 [OK]
+2026-08-03 17:38:22 | INFO | M07 | Saved baseline predictions to: c:\Repos\ml-07-applied\data\processed\ml_07_femi_baseline_predictions.csv
+2026-08-03 17:38:22 | INFO | M07 | bill_length_mm sweep with retry handling:
+2026-08-03 17:38:22 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:22 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:38:22 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:22 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:38:22 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:22 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:38:22 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:23 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:38:23 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:23 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:38:23 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:23 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:38:23 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:23 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:38:23 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:24 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:38:24 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:24 | INFO | M07 | API success expected=unknown prediction=Adelie
+2026-08-03 17:38:24 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:24 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:38:24 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:24 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:38:24 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:24 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:38:24 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:24 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:38:24 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:25 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:38:25 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:25 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:38:25 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:25 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:38:25 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:25 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:38:25 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:25 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:38:25 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:25 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:38:25 | INFO | M07 | Calling API for expected=unknown, attempt=1
+2026-08-03 17:38:26 | INFO | M07 | API success expected=unknown prediction=Chinstrap
+2026-08-03 17:38:26 | INFO | M07 |  bill_length_mm prediction
+2026-08-03 17:38:26 | INFO | M07 |       30.000000     Adelie
+2026-08-03 17:38:26 | INFO | M07 |       31.578947     Adelie
+2026-08-03 17:38:26 | INFO | M07 |       33.157895     Adelie
+2026-08-03 17:38:26 | INFO | M07 |       34.736842     Adelie
+2026-08-03 17:38:26 | INFO | M07 |       36.315789     Adelie
+2026-08-03 17:38:26 | INFO | M07 |       37.894737     Adelie
+2026-08-03 17:38:26 | INFO | M07 |       39.473684     Adelie
+2026-08-03 17:38:26 | INFO | M07 |       41.052632     Adelie
+2026-08-03 17:38:26 | INFO | M07 |       42.631579     Adelie
+2026-08-03 17:38:26 | INFO | M07 |       44.210526     Chinstrap
+2026-08-03 17:38:26 | INFO | M07 |       45.789474     Chinstrap
+2026-08-03 17:38:26 | INFO | M07 |       47.368421     Chinstrap
+2026-08-03 17:38:26 | INFO | M07 |       48.947368     Chinstrap
+2026-08-03 17:38:26 | INFO | M07 |       50.526316     Chinstrap
+2026-08-03 17:38:26 | INFO | M07 |       52.105263     Chinstrap
+2026-08-03 17:38:26 | INFO | M07 |       53.684211     Chinstrap
+2026-08-03 17:38:26 | INFO | M07 |       55.263158     Chinstrap
+2026-08-03 17:38:26 | INFO | M07 |       56.842105     Chinstrap
+2026-08-03 17:38:26 | INFO | M07 |       58.421053     Chinstrap
+2026-08-03 17:38:26 | INFO | M07 |       60.000000     Chinstrap
+2026-08-03 17:38:26 | INFO | M07 | Saved sweep results to: c:\Repos\ml-07-applied\data\processed\ml_07_femi_bill_length_sweep.csv
+2026-08-03 17:38:26 | INFO | M07 | Saved figure: c:\Repos\ml-07-applied\docs\images\ml_07_femi_bill_length_sweep.png
+2026-08-03 17:38:26 | INFO | M07 | Edge case results:
+2026-08-03 17:38:26 | INFO | M07 |   missing feature        -> 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-03 17:38:26 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-03 17:38:26 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-03 17:38:27 | INFO | M07 |   negative value         -> Adelie
+2026-08-03 17:38:27 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-03 17:38:27 | INFO | M07 | Saved edge case results to: c:\Repos\ml-07-applied\data\processed\ml_07_femi_edge_cases.csv
+2026-08-03 17:38:27 | INFO | M07 | ========================
+2026-08-03 17:38:27 | INFO | M07 | SUMMARY
+2026-08-03 17:38:27 | INFO | M07 | ========================
+2026-08-03 17:38:27 | INFO | M07 | Technical modification: Added retry-enabled API calls and structured logging.
+2026-08-03 17:38:27 | INFO | M07 | Baseline rows: 3
+2026-08-03 17:38:27 | INFO | M07 | Sweep rows: 20
+2026-08-03 17:38:27 | INFO | M07 | Edge case rows: 5
+2026-08-03 17:38:27 | INFO | M07 | Outputs saved in: c:\Repos\ml-07-applied\data\processed
+2026-08-03 17:38:27 | INFO | M07 | Figures saved in: c:\Repos\ml-07-applied\docs\images
+2026-08-03 17:38:27 | INFO | M07 | Executed notebook successfully: ml_07_femi.ipynb
+2026-08-03 17:38:27 | INFO | M07 | ========================
+2026-08-03 17:40:06 | INFO | M07 | ========================
+2026-08-03 17:40:06 | INFO | M07 | === RUN START ===
+2026-08-03 17:40:06 | INFO | M07 | project=M07
+2026-08-03 17:40:06 | INFO | M07 | repo_dir=ml-07-applied
+2026-08-03 17:40:06 | INFO | M07 | notebook=ml_07_text_and_image_femi.ipynb
+2026-08-03 17:40:06 | INFO | M07 | python=3.14.2
+2026-08-03 17:40:06 | INFO | M07 | os=Windows 11
+2026-08-03 17:40:06 | INFO | M07 | shell=notebook
+2026-08-03 17:40:06 | INFO | M07 | cwd=c:\Repos\ml-07-applied\notebooks
+2026-08-03 17:40:06 | INFO | M07 | project_log=c:\Repos\ml-07-applied\project.log
+2026-08-03 17:40:06 | INFO | M07 | Confirming installation:
+2026-08-03 17:40:06 | INFO | M07 |   python:       3.14.2
+2026-08-03 17:40:06 | INFO | M07 |   pandas:       3.0.5
+2026-08-03 17:40:06 | INFO | M07 |   numpy:        2.5.1
+2026-08-03 17:40:06 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-03 17:40:06 | INFO | M07 |   seaborn:      0.13.2
+2026-08-03 17:40:06 | INFO | M07 |   requests:     2.34.2
+2026-08-03 17:40:06 | INFO | M07 | ========================
+2026-08-03 17:40:06 | INFO | M07 | Creating JSON-style image analysis records
+2026-08-03 17:40:06 | INFO | M07 | Image result records: 3
+2026-08-03 17:40:06 | INFO | M07 | Flattened image JSON-style results
+2026-08-03 17:40:06 | INFO | M07 | Image label rows: 21
+2026-08-03 17:40:06 | INFO | M07 | Saved image label results to: c:\Repos\ml-07-applied\data\processed\ml_07_text_image_femi_image_labels.csv
+2026-08-03 17:40:07 | INFO | M07 | Saved image confidence figure: c:\Repos\ml-07-applied\docs\images\ml_07_text_image_femi_image_confidence.png
+2026-08-03 17:40:07 | INFO | M07 | Creating JSON-style text sentiment records
+2026-08-03 17:40:07 | INFO | M07 | Text sentiment rows: 3
+2026-08-03 17:40:07 | INFO | M07 | Saved text sentiment results to: c:\Repos\ml-07-applied\data\processed\ml_07_text_image_femi_text_sentiment.csv
+2026-08-03 17:40:07 | INFO | M07 | Saved text confidence figure: c:\Repos\ml-07-applied\docs\images\ml_07_text_image_femi_text_confidence.png
+2026-08-03 17:40:07 | INFO | M07 | What works well? Clear, realistic images with common subjects worked best. The puppies were detected accurately with high confidence.
+2026-08-03 17:40:07 | INFO | M07 | What does not work well? Ambiguous drawings and optical illusions were harder. The duck-rabbit image was only interpreted as a bird and drawing.
+2026-08-03 17:40:07 | INFO | M07 | What was interesting? The robot image was detected as Robot, but it was also labeled Person because it has human-like features.
+2026-08-03 17:40:07 | INFO | M07 | Saved human review summary to: c:\Repos\ml-07-applied\data\processed\ml_07_text_image_femi_human_review_summary.csv
+2026-08-03 17:40:07 | INFO | M07 | ========================
+2026-08-03 17:40:07 | INFO | M07 | SUMMARY
+2026-08-03 17:40:07 | INFO | M07 | ========================
+2026-08-03 17:40:07 | INFO | M07 | Technical modification: Added text and image JSON-style result analysis with structured logging.
+2026-08-03 17:40:07 | INFO | M07 | Image label rows: 21
+2026-08-03 17:40:07 | INFO | M07 | Text sentiment rows: 3
+2026-08-03 17:40:07 | INFO | M07 | Human review rows: 3
+2026-08-03 17:40:07 | INFO | M07 | Outputs saved in: c:\Repos\ml-07-applied\data\processed
+2026-08-03 17:40:07 | INFO | M07 | Figures saved in: c:\Repos\ml-07-applied\docs\images
+2026-08-03 17:40:07 | INFO | M07 | Executed notebook successfully: ml_07_text_and_image_femi.ipynb
+2026-08-03 17:40:07 | INFO | M07 | ========================

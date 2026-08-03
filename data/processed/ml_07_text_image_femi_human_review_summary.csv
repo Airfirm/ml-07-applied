@@ -1,0 +1,4 @@
+question,answer
+What works well?,"Clear, realistic images with common subjects worked best. The puppies were detected accurately with high confidence."
+What does not work well?,Ambiguous drawings and optical illusions were harder. The duck-rabbit image was only interpreted as a bird and drawing.
+What was interesting?,"The robot image was detected as Robot, but it was also labeled Person because it has human-like features."
