@@ -1,4 +1,4 @@
 expected,prediction,status,attempts,error,bill_length_mm,bill_depth_mm,flipper_length_mm,body_mass_g
-Adelie,Adelie,OK,1,,39.1,18.7,181,3750
+Adelie,Adelie,OK,2,,39.1,18.7,181,3750
 Chinstrap,Chinstrap,OK,1,,48.7,17.5,191,3500
 Gentoo,Gentoo,OK,1,,46.1,13.2,211,4500
